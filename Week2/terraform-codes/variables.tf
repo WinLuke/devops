@@ -21,9 +21,9 @@ variable "aws_azs"  {
     default = ["ap-southeast-1a", "ap-southeast-1c"]
     type = list(string)
 }
-
-// EKS 클러스터명
-variable "cluster-name" {
-  default = "test-eks-cluster"
-  type    = string
-}
+#
+#// EKS 클러스터명
+#variable "cluster-name" {
+#  default = "test-eks-cluster"
+#  type    = string
+#}
